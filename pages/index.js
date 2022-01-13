@@ -14,8 +14,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hello, Welcome my World</p>
-        <Alert type="error">
-          <h2>DEV 테스트</h2>
+        <Alert type="success">
+          <h2>경고 알림</h2>
         </Alert>
         <p>
           (This is a sample website - you’ll be building a site like this on <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
